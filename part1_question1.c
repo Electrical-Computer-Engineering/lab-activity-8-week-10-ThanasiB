@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+//NAME : Athanasios Bubulinis
+//ID: 114801485
+//Lab 8 Part 1
+
 int my_isalpha(char thischar){  //returns int, takes char input
     if((thischar>='a'&&thischar<='z')||(thischar>='A'&&thischar<='Z')){ return(1);  }   //if a to z or A to Z, return 1
     else{   return(0);  }                                                               //else return 0
